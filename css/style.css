@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Poppins:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.collapse ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#212529;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.collapse ul li:hover::after {
+    width: 100%;
+}
+/* .nav-item a{
+    
+} */
+
+
+
+
+
+
+
+
+.contain1{
+
+    padding-top: 8rem;
+    height: 38em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.csr{
+    
+    display: inline-block;
+   
+}
+.text{
+    font-family: 'Crimson Text', serif;
+font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 5em;
+    /* letter-spacing: 5px; */
+    border-right: 5px solid;
+
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation: typing  3s  infinite, cursor .3s  step-end infinite alternate;
+}
+.resume{
+    padding-top: 2em;
+}
+
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{width:0}
+}
+
+@media (max-width:600px) {
+    .contain1 h1{
+        font-size: 1.2em;
+       
+    }
+    .contain1{
+        height: 25em;
+    }
+    .contain1 h3{
+        font-size: 1em;
+    }
+    .text{
+        font-size: 2em;
+    }
+
+    
+}
+
+@media (max-width:300px) {
+    .contain1{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+    .contain1{
+        padding-top: 6em;
+        height: 20em;
+    }
+    .contain1 h1{
+        font-size: 1em;
+    }    
+    .contain1 h3{
+        font-size: 0.8em;
+    }
+    .text{
+        font-size: 1.5em;
+    }
+    .resume{
+        font-size: 0.8em;
+    }
+}
+
+.sec2{
+    height: 40em;
+}
+
