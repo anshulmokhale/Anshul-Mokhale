@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Poppins:wght@500&display=swap');
 
 
 *{
@@ -111,7 +111,43 @@ font-family: 'Poppins', sans-serif;
     }
 }
 
-.sec2{
-    height: 40em;
-}
-
+.container {
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 500px; /* Adjust the dimensions as needed */
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #212529;
+  }
+  
+  .container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: #212529; */
+     /* Replace with your desired background color */
+   /* Adjust the coordinates to create a rhombus shape */
+    z-index: -1; /* Positions the background below the content */
+  }
+  
+  .content {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Positions the content above the background */
+  }
+  .content img{
+    /* padding-top: 5rem; */
+  }
+  .prac{
+    display: flex;
+    height: 34em;
+  }
+  .disc{
+    width: 50%;
+  }
