@@ -398,6 +398,8 @@
 
 }
 
+
+
 @media (max-width:900px) {
     .card-bl {
         display: block;
@@ -433,4 +435,159 @@
         width: 260px;
 
     }
+}
+
+.card p {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+@media (max-width:300px) {
+    .card {
+        width: 12rem;
+    }
+
+    .img-1 {
+        height: 110px;
+        width: 140px;
+    }
+
+    .img-2 {
+        height: 110%;
+        width: 140px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .card p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+}
+
+
+.c-img img {
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #212529;
+}
+
+.c-img {
+    width: 50%;
+
+}
+
+.c-dsc {
+    margin: auto;
+    width: 50%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.c-1 {
+    display: flex;
+}
+
+.c-2 {
+    display: flex;
+    padding-top: 1em;
+}
+
+.c-3 {
+    display: flex;
+    padding-top: 1em;
+}
+
+.txt-show {
+    text-align: center;
+}
+
+.certificate {
+    padding: 2em;
+}
+
+.certificate h1 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:950px) {
+    .c-1 {
+        display: block;
+        width: auto;
+    }
+
+    .c-2 {
+        display: block;
+        width: auto;
+    }
+
+    .c-3 {
+        display: block;
+        width: auto;
+    }
+
+    /* .c-img img {
+        margin: auto;
+        display: block;
+        height: 200px;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+     */
+    .c-img {
+        width: 100%;
+
+    }
+
+    .c-dsc {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:450px) {
+    .c-img img {
+
+        height: 150px;
+        width: 300px;
+
+    }
+
+    .c-dsc {
+        font-size: 5px;
+    }
+
+    .certificate {
+        padding: 1em;
+    }
+
+}
+
+@media (max-width:350px) {
+    .c-img img {
+        height: 110px;
+        width: 220px;
+
+    }
+
+    .certificate {
+        padding: 0.3em;
+    }
+
+
 }
