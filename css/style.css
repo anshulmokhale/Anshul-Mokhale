@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Poppins:wght@500&display=swap');
+/*poppins family import*/
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap');
+/*second family import*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/*bootstrap icon import*/
 
 * {
     padding: 0;
@@ -7,6 +11,8 @@
     box-sizing: border-box;
 
 }
+
+/* =================================================== navbar start ========================================= */
 
 .collapse ul li::after {
     content: '';
@@ -22,17 +28,9 @@
     width: 100%;
 }
 
-/* .nav-item a{
-    
-} */
+/* ======================================== navbar over =================================================== */
 
-
-
-
-
-
-
-
+/* ===================================== first part start ================================================= */
 .contain1 {
 
     padding-top: 8rem;
@@ -153,15 +151,15 @@
     }
 }
 
+/* ===================================================first part over ====================================== */
+
+/* ================================================== second part start ===================================== */
 .container {
     position: relative;
     margin: auto;
     align-items: center;
     justify-content: center;
-    /* width: 500px; */
     width: 50%;
-    /* Adjust the dimensions as needed */
-    /* height: 500px; */
     height: 100%;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     background-color: #212529;
@@ -170,13 +168,8 @@
 .container::before {
     content: "";
     position: absolute;
-    /* width: 80%; */
     height: 100%;
-    /* background-color: #212529; */
-    /* Replace with your desired background color */
-    /* Adjust the coordinates to create a rhombus shape */
     z-index: -1;
-    /* Positions the background below the content */
 }
 
 .content {
@@ -186,12 +179,10 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    /* Positions the content above the background */
 }
 
 .prac {
     display: flex;
-    /* height: 34em; */
     height: 100%;
 }
 
@@ -221,24 +212,6 @@
 
 }
 
-/* @media (max-width:1200px) {
-
-    .about {
-        padding-top: 1.2em;
-    }
-} */
-
-/* @media (max-width:1100px) {
-    .about {
-        padding-top: 1em;
-        font-size: 40px;
-    }
-
-    .disc p {
-        font-size: 15px;
-    }
-
-} */
 
 @media (max-width:1000px) {
     .prac {
@@ -255,10 +228,7 @@
 }
 
 @media (max-width:800px) {
-    /* 
-    .prac {
-        height: 30em;
-    } */
+
 
     .content img {
         height: 380px;
@@ -267,17 +237,11 @@
 
     .disc {
         padding-bottom: 2em;
-        /* height: 18em; */
         height: 100%;
     }
 }
 
 @media (max-width:600px) {
-    /* 
-    .prac {
-        height: 23em;
-    } */
-
     .content img {
         height: 310px;
         width: 360px;
@@ -302,9 +266,7 @@
 }
 
 @media (max-width:500px) {
-    /* .prac {
-        height: 20em;
-    } */
+
 
     .content img {
         height: 220px;
@@ -341,7 +303,9 @@
     }
 }
 
+/* ========================================= second part over ============================================== */
 
+/* ========================================== third part start ============================================== */
 .work {
     background-color: #212529;
     height: 100%;
@@ -468,7 +432,9 @@
     }
 }
 
+/* ===================================== third part over =================================================== */
 
+/* ======================================= fourt part start ================================================ */
 .c-img img {
     margin: auto;
     display: block;
@@ -591,3 +557,60 @@
 
 
 }
+
+/* ============================================= fourt part over =================================== */
+
+/* ============================================footer start here ==================================== */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-column {
+    width: 300px;
+    margin: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-links li {
+    margin: 0 10px;
+}
+
+.social-media-links a {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+}
+
+/* ========================================== footer stop ================================================== */
