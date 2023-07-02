@@ -259,6 +259,10 @@
         height: 380px;
         width: 440px;
     }
+
+    .disc {
+        padding-bottom: 2em;
+    }
 }
 
 @media (max-width:600px) {
@@ -268,8 +272,8 @@
     }
 
     .content img {
-        height: 320px;
-        width: 380px;
+        height: 310px;
+        width: 360px;
     }
 
     .disc {
@@ -284,9 +288,12 @@
         font-size: 14px;
     }
 
+    .disc {
+        padding-bottom: 2em;
+    }
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .prac {
         height: 20em;
     }
@@ -303,6 +310,10 @@
     .disc p {
         font-size: 11px;
     }
+
+    .disc {
+        padding-bottom: 2em;
+    }
 }
 
 @media (max-width:350px) {
@@ -315,4 +326,7 @@
         width: 350px;
     }
 
+    .disc {
+        padding-bottom: 2em;
+    }
 }
