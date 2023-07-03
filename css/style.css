@@ -487,6 +487,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.linked {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width:950px) {
     .c-1 {
         display: block;
